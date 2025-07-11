@@ -10,5 +10,4 @@ const board = JXG.JSXGraph.initBoard('jxgbox', {
 
 const curve = board.create('functiongraph', [x => x ** 2], { strokeColor: '#0066cc' });
 
-board.create('point', [1, 1], { name: 'A', size: 3, color: 'red' });
 
